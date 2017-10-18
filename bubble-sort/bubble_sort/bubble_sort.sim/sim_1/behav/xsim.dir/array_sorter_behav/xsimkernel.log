@@ -1,0 +1,4 @@
+Running: xsim.dir/array_sorter_behav/xsimk -simmode gui -wdb array_sorter_behav.wdb -simrunnum 0 -socket 54689
+Design successfully loaded
+Design Loading Memory Usage: 41612 KB (Peak: 41612 KB)
+Design Loading CPU Usage: 0 ms

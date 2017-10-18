@@ -1,0 +1,75 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
+| Date         : Wed Oct 18 16:13:22 2017
+| Host         : szar-mint running 64-bit Linux Mint 18.2 Sonya
+| Command      : report_control_sets -verbose -file array_sorter_control_sets_placed.rpt
+| Design       : array_sorter
+| Device       : xc7z010
+-----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    13 |
+| Unused register locations in slices containing registers |    53 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               1 |            1 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              45 |           23 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               5 |            2 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------+------------------------------------------+------------------------------+------------------+----------------+
+|  Clock Signal |               Enable Signal              |       Set/Reset Signal       | Slice Load Count | Bel Load Count |
++---------------+------------------------------------------+------------------------------+------------------+----------------+
+|  ck_IBUF_BUFG |                                          |                              |                1 |              1 |
+|  ck_IBUF_BUFG | GEN_PE[9].LAST.U0/element[3]_i_1__8_n_0  |                              |                1 |              4 |
+|  ck_IBUF_BUFG | GEN_PE[7].ODDS.U0/element[3]_i_1__6_n_0  |                              |                3 |              4 |
+|  ck_IBUF_BUFG | GEN_PE[8].EVENS.U0/element[3]_i_1__7_n_0 |                              |                2 |              4 |
+|  ck_IBUF_BUFG | GEN_PE[0].FIRST.U0/element[3]_i_1_n_0    |                              |                2 |              4 |
+|  ck_IBUF_BUFG | GEN_PE[3].ODDS.U0/element[3]_i_1__2_n_0  |                              |                2 |              4 |
+|  ck_IBUF_BUFG | GEN_PE[6].EVENS.U0/element[3]_i_1__5_n_0 |                              |                2 |              4 |
+|  ck_IBUF_BUFG | GEN_PE[2].EVENS.U0/element[3]_i_1__1_n_0 |                              |                2 |              4 |
+|  ck_IBUF_BUFG | GEN_PE[4].EVENS.U0/element[3]_i_1__3_n_0 |                              |                2 |              4 |
+|  ck_IBUF_BUFG | GEN_PE[5].ODDS.U0/element[3]_i_1__4_n_0  |                              |                2 |              4 |
+|  ck_IBUF_BUFG | GEN_PE[1].ODDS.U0/element[3]_i_1__0_n_0  |                              |                2 |              4 |
+|  ck_IBUF_BUFG | GEN_PE[9].LAST.U0/state_reg_0            |                              |                3 |              5 |
+|  ck_IBUF_BUFG | GEN_PE[9].LAST.U0/state_reg_0            | GEN_PE[9].LAST.U0/state1_out |                2 |              5 |
++---------------+------------------------------------------+------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     1 |
+| 4      |                    10 |
+| 5      |                     2 |
++--------+-----------------------+
+
+

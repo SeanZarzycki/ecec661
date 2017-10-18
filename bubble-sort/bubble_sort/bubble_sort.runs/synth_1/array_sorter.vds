@@ -1,0 +1,285 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Oct 18 16:12:44 2017
+# Process ID: 17122
+# Current directory: /home/szar/drexel/2017-fall/ecec661/bubble-sort/bubble_sort/bubble_sort.runs/synth_1
+# Command line: vivado -log array_sorter.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source array_sorter.tcl
+# Log file: /home/szar/drexel/2017-fall/ecec661/bubble-sort/bubble_sort/bubble_sort.runs/synth_1/array_sorter.vds
+# Journal file: /home/szar/drexel/2017-fall/ecec661/bubble-sort/bubble_sort/bubble_sort.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source array_sorter.tcl -notrace
+Command: synth_design -top array_sorter -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010-clg400'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010-clg400'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 17294 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1179.844 ; gain = 74.992 ; free physical = 4723 ; free virtual = 26527
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'array_sorter' [/home/szar/drexel/2017-fall/ecec661/bubble-sort/array_sorter.vhd:18]
+	Parameter N bound to: 4 - type: integer 
+	Parameter ARR_LEN bound to: 10 - type: integer 
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'PE' declared at '/home/szar/drexel/2017-fall/ecec661/bubble-sort/processing_element.vhd:5' bound to instance 'U0' of component 'PE' [/home/szar/drexel/2017-fall/ecec661/bubble-sort/array_sorter.vhd:37]
+INFO: [Synth 8-638] synthesizing module 'PE' [/home/szar/drexel/2017-fall/ecec661/bubble-sort/processing_element.vhd:15]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-4471] merging register 'L_out_reg[3:0]' into 'element_reg[3:0]' [/home/szar/drexel/2017-fall/ecec661/bubble-sort/processing_element.vhd:38]
+INFO: [Synth 8-4471] merging register 'R_out_reg[3:0]' into 'element_reg[3:0]' [/home/szar/drexel/2017-fall/ecec661/bubble-sort/processing_element.vhd:39]
+WARNING: [Synth 8-6014] Unused sequential element L_out_reg was removed.  [/home/szar/drexel/2017-fall/ecec661/bubble-sort/processing_element.vhd:38]
+WARNING: [Synth 8-6014] Unused sequential element R_out_reg was removed.  [/home/szar/drexel/2017-fall/ecec661/bubble-sort/processing_element.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'PE' (1#1) [/home/szar/drexel/2017-fall/ecec661/bubble-sort/processing_element.vhd:15]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'PE' declared at '/home/szar/drexel/2017-fall/ecec661/bubble-sort/processing_element.vhd:5' bound to instance 'U0' of component 'PE' [/home/szar/drexel/2017-fall/ecec661/bubble-sort/array_sorter.vhd:69]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'PE' declared at '/home/szar/drexel/2017-fall/ecec661/bubble-sort/processing_element.vhd:5' bound to instance 'U0' of component 'PE' [/home/szar/drexel/2017-fall/ecec661/bubble-sort/array_sorter.vhd:53]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'PE' declared at '/home/szar/drexel/2017-fall/ecec661/bubble-sort/processing_element.vhd:5' bound to instance 'U0' of component 'PE' [/home/szar/drexel/2017-fall/ecec661/bubble-sort/array_sorter.vhd:69]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'PE' declared at '/home/szar/drexel/2017-fall/ecec661/bubble-sort/processing_element.vhd:5' bound to instance 'U0' of component 'PE' [/home/szar/drexel/2017-fall/ecec661/bubble-sort/array_sorter.vhd:53]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'PE' declared at '/home/szar/drexel/2017-fall/ecec661/bubble-sort/processing_element.vhd:5' bound to instance 'U0' of component 'PE' [/home/szar/drexel/2017-fall/ecec661/bubble-sort/array_sorter.vhd:69]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'PE' declared at '/home/szar/drexel/2017-fall/ecec661/bubble-sort/processing_element.vhd:5' bound to instance 'U0' of component 'PE' [/home/szar/drexel/2017-fall/ecec661/bubble-sort/array_sorter.vhd:53]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'PE' declared at '/home/szar/drexel/2017-fall/ecec661/bubble-sort/processing_element.vhd:5' bound to instance 'U0' of component 'PE' [/home/szar/drexel/2017-fall/ecec661/bubble-sort/array_sorter.vhd:69]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'PE' declared at '/home/szar/drexel/2017-fall/ecec661/bubble-sort/processing_element.vhd:5' bound to instance 'U0' of component 'PE' [/home/szar/drexel/2017-fall/ecec661/bubble-sort/array_sorter.vhd:53]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'PE' declared at '/home/szar/drexel/2017-fall/ecec661/bubble-sort/processing_element.vhd:5' bound to instance 'U0' of component 'PE' [/home/szar/drexel/2017-fall/ecec661/bubble-sort/array_sorter.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'array_sorter' (2#1) [/home/szar/drexel/2017-fall/ecec661/bubble-sort/array_sorter.vhd:18]
+WARNING: [Synth 8-3331] design PE has unconnected port reset
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1220.344 ; gain = 115.492 ; free physical = 4739 ; free virtual = 26543
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1220.344 ; gain = 115.492 ; free physical = 4739 ; free virtual = 26543
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1228.348 ; gain = 123.496 ; free physical = 4738 ; free virtual = 26542
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1236.355 ; gain = 131.504 ; free physical = 4729 ; free virtual = 26533
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 10    
+	                1 Bit    Registers := 20    
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 20    
+	   2 Input      1 Bit        Muxes := 40    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module PE 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design array_sorter has unconnected port reset
+INFO: [Synth 8-3886] merging instance 'GEN_PE[0].FIRST.U0/init_reg' (FDE) to 'GEN_PE[9].LAST.U0/init_reg'
+INFO: [Synth 8-3886] merging instance 'GEN_PE[1].ODDS.U0/init_reg' (FDE) to 'GEN_PE[9].LAST.U0/init_reg'
+INFO: [Synth 8-3886] merging instance 'GEN_PE[2].EVENS.U0/init_reg' (FDE) to 'GEN_PE[9].LAST.U0/init_reg'
+INFO: [Synth 8-3886] merging instance 'GEN_PE[3].ODDS.U0/init_reg' (FDE) to 'GEN_PE[9].LAST.U0/init_reg'
+INFO: [Synth 8-3886] merging instance 'GEN_PE[4].EVENS.U0/init_reg' (FDE) to 'GEN_PE[9].LAST.U0/init_reg'
+INFO: [Synth 8-3886] merging instance 'GEN_PE[5].ODDS.U0/init_reg' (FDE) to 'GEN_PE[9].LAST.U0/init_reg'
+INFO: [Synth 8-3886] merging instance 'GEN_PE[6].EVENS.U0/init_reg' (FDE) to 'GEN_PE[9].LAST.U0/init_reg'
+INFO: [Synth 8-3886] merging instance 'GEN_PE[7].ODDS.U0/init_reg' (FDE) to 'GEN_PE[9].LAST.U0/init_reg'
+INFO: [Synth 8-3886] merging instance 'GEN_PE[8].EVENS.U0/init_reg' (FDE) to 'GEN_PE[9].LAST.U0/init_reg'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1348.941 ; gain = 244.090 ; free physical = 4576 ; free virtual = 26384
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1348.941 ; gain = 244.090 ; free physical = 4576 ; free virtual = 26384
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1349.949 ; gain = 245.098 ; free physical = 4575 ; free virtual = 26383
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1349.949 ; gain = 245.098 ; free physical = 4572 ; free virtual = 26379
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1349.949 ; gain = 245.098 ; free physical = 4572 ; free virtual = 26379
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1349.949 ; gain = 245.098 ; free physical = 4572 ; free virtual = 26379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1349.949 ; gain = 245.098 ; free physical = 4572 ; free virtual = 26379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1349.949 ; gain = 245.098 ; free physical = 4572 ; free virtual = 26379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1349.949 ; gain = 245.098 ; free physical = 4572 ; free virtual = 26379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT2 |     2|
+|3     |LUT3 |    15|
+|4     |LUT4 |    44|
+|5     |LUT5 |     6|
+|6     |LUT6 |    11|
+|7     |FDRE |    46|
+|8     |FDSE |     5|
+|9     |IBUF |     6|
+|10    |OBUF |     4|
++------+-----+------+
+
+Report Instance Areas: 
++------+-----------------------+-------+------+
+|      |Instance               |Module |Cells |
++------+-----------------------+-------+------+
+|1     |top                    |       |   140|
+|2     |  \GEN_PE[0].FIRST.U0  |PE     |     8|
+|3     |  \GEN_PE[1].ODDS.U0   |PE_0   |    13|
+|4     |  \GEN_PE[2].EVENS.U0  |PE_1   |    12|
+|5     |  \GEN_PE[3].ODDS.U0   |PE_2   |    13|
+|6     |  \GEN_PE[4].EVENS.U0  |PE_3   |    13|
+|7     |  \GEN_PE[5].ODDS.U0   |PE_4   |    13|
+|8     |  \GEN_PE[6].EVENS.U0  |PE_5   |    13|
+|9     |  \GEN_PE[7].ODDS.U0   |PE_6   |    12|
+|10    |  \GEN_PE[8].EVENS.U0  |PE_7   |    18|
+|11    |  \GEN_PE[9].LAST.U0   |PE_8   |    14|
++------+-----------------------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1349.949 ; gain = 245.098 ; free physical = 4572 ; free virtual = 26379
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1349.949 ; gain = 245.098 ; free physical = 4572 ; free virtual = 26379
+Synthesis Optimization Complete : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1349.957 ; gain = 245.098 ; free physical = 4572 ; free virtual = 26379
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+33 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1485.766 ; gain = 393.504 ; free physical = 4503 ; free virtual = 26311
+INFO: [Common 17-1381] The checkpoint '/home/szar/drexel/2017-fall/ecec661/bubble-sort/bubble_sort/bubble_sort.runs/synth_1/array_sorter.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.08 . Memory (MB): peak = 1509.777 ; gain = 0.000 ; free physical = 4501 ; free virtual = 26311
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 18 16:13:01 2017...

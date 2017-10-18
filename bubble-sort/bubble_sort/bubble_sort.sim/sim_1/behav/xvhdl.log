@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/szar/drexel/2017-fall/ecec661/bubble-sort/processing_element.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PE
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/szar/drexel/2017-fall/ecec661/bubble-sort/array_sorter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity array_sorter

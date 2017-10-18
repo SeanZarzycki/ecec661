@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Oct 18 16:13:01 2017
+# Process ID: 17408
+# Current directory: /home/szar/drexel/2017-fall/ecec661/bubble-sort/bubble_sort/bubble_sort.runs/impl_1
+# Command line: vivado -log array_sorter.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source array_sorter.tcl -notrace
+# Log file: /home/szar/drexel/2017-fall/ecec661/bubble-sort/bubble_sort/bubble_sort.runs/impl_1/array_sorter.vdi
+# Journal file: /home/szar/drexel/2017-fall/ecec661/bubble-sort/bubble_sort/bubble_sort.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source array_sorter.tcl -notrace
